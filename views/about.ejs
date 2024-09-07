@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= title %></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">GwySite</a>
+        </div>
+    </div>
+</nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="text-center"><%= title %></h2>
+                <h5 class="text-center"><span class="glyphicon glyphicon-time"></span> Page updated on Sep 27, 2024.</h5>
+                <hr>
+                <h4 class="text-center">Welcome, <%= username %>!</h4><br>
+                <p>This is the about page. Here we share more information about our website and what we do.</p>
+                <p>Welcome to ConcernCentral, your go-to resource for navigating life’s challenges and finding solutions. At ConcernCentral, we understand that everyone faces unique obstacles and uncertainties. Our mission is to provide reliable information, practical advice, and supportive resources to help you address and overcome these concerns.
+                    <br><br>
+                    Our team of dedicated experts and passionate contributors is committed to delivering content that empowers, informs, and inspires. Whether you’re seeking guidance on personal issues, professional dilemmas, or everyday challenges, you’ll find valuable insights and practical solutions right here.
+                    <br><br>
+                    At ConcernCentral, we believe that knowledge is power and that everyone deserves the tools to address their concerns confidently. Thank you for visiting, and we’re here to support you every step of the way.</p>
+                <hr>
+
+                <h4 class="text-center">Leave a Comment:</h4>
+                <form role="form">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success center-block">Submit</button>
+                </form>
+                <br><br>                   
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="text-center">Footer Text</p>
+    </footer>
+
+</body>
+</html>

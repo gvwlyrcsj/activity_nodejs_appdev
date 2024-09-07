@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+
+.navbar.navbar-default {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100px;
+    padding-left: 20px;
+    background-color: #106cfc; 
+}
+
+.navbar.navbar-default a{
+    font-size: 20px;
+    color: white;
+}
+
+.navbar.navbar {
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100px;
+    padding-left: 20px;
+    background-color: #106cfc; 
+}
+
+.navbar.navbar a{
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #343a40;
+}
+
+label {
+    font-weight: 500;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.row.content {height: 1500px}
+    
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
